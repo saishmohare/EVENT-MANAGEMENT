@@ -1,0 +1,54 @@
+.header
+{
+	background-color:#b3d9ff;
+	color:black;
+	
+	padding:30px;
+	height:auto;
+	text-align:center;
+	
+}
+.header:hover
+{
+	background-color:#80aaff;
+}
+.body
+{
+	
+	background-color: lightgrey;
+	height:355px;
+	margin-top: 0px;
+	
+}
+.body #content
+{
+
+    background-color:white;
+    height: 200px;
+    text-align: center;
+    
+    width: 50%;
+	margin-top: 30px;
+    margin-left: 25%;
+	padding: 5px;
+	position: absolute;
+}
+#n1
+{
+	margin-top: 50px;
+
+}
+#n2
+{
+	margin-top: 50px;
+}
+.footer
+{
+	background-color:#80aaff;
+	text-align:center;
+	color:black;
+	text-decoration:none;
+	padding:42px;
+	
+	
+}

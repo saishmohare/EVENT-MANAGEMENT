@@ -1,0 +1,140 @@
+/*.header
+{
+	background-color:#b3d9ff;
+	color:black;
+	transition: 0.3s;
+	padding:30px;
+	height:auto;
+	text-align:center;
+	
+}
+.header:hover
+{
+	background-color:#80aaff;
+	transition: 0.3s;
+	opacity: 0.8;
+}*/
+
+
+.header
+{
+	background-color:#b3d9ff;
+	margin-top: 0px;
+    height: 100px;
+	font-family: Verdana;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	/*margin-bottom: 5px;*/
+	transition: 0.3s;
+    padding-top: 25px;
+	margin-bottom: -10px;
+    overflow: hidden;
+
+}
+
+.header:hover
+{
+	background-color:#80aaff;
+	opacity: 0.8;
+	border-radius: 10px;
+	transition: 0.3s;
+    overflow: hidden;
+}
+
+
+.body
+{
+	
+	background-color: lightgrey;
+	height:355px;
+	margin-top: -15px;
+	width: 100%;
+    overflow: hidden;
+    
+}
+
+.body #events
+{
+    height: 100%;
+    width: 70%; 
+    padding: 8px;
+    float: left;
+  
+}
+
+.body #events .eve
+{
+    height: 20%;
+    border: 1px solid;
+    
+}
+
+.body #events .eve .right
+{
+    float: right;
+    background-color: #4CAF50; 
+   border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    margin-right: 4px;
+    margin-bottom: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    
+}
+
+.body #events .eve .right:hover
+{
+    background-color: #008CBA;
+    color: white;
+}
+
+.body #info
+{
+    height: 355px;
+    float: right;
+    border: 1px solid;
+    width: 27%;    
+}
+
+.body #info #infohead
+{
+    padding-top: 12px;
+    text-align: center;
+    height: 65px;
+    border: 1px solid;
+    background-color:#80aaff;
+    opacity: 0.8;
+    margin-top: 0px;
+}
+
+.body #info .eveenroll
+{
+    margin-top: 0px;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+
+.footer
+{
+	background-color:#80aaff;
+	text-align:center;
+	color:black;
+	text-decoration:none;
+	padding:42px;
+	
+	
+}
